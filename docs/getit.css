@@ -95,6 +95,7 @@ body {
     flex-direction: row;
     justify-content: flex-start;
     align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 
 }
 
@@ -106,7 +107,7 @@ body {
 
 .form-card {
     align-self: center;
-    background-color: white;
+    background-color:white;
     margin: 10px 350px;
     padding: 15px;
     border-radius: 10px;
@@ -117,6 +118,7 @@ body {
     margin-top: 20px;
     margin-bottom: 20px;
     width: 500px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 .form-card > * {
@@ -129,12 +131,13 @@ body {
     font-size: 20px;
     font-weight: bold;
     color: #2c2c2c;
-    border: None;
+    border: none;
+    
     
 }
 
 .autoresize {
-    border: None;
+    border: none;
 
 }
 
@@ -157,6 +160,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 
@@ -197,35 +201,35 @@ body {
 }
 
 .card-rotation-1 {
-    transform: rotate(0deg);
+    transform: rotate(2deg);
 }
 
 .card-rotation-2 {
-    transform: rotate(10deg);
+    transform: rotate(5deg);
 }
 
 .card-rotation-3 {
-    transform: rotate(12deg);
-}
-
-.card-rotation-4 {
-    transform: rotate(15deg);
-}
-
-.card-rotation-5 {
-    transform: rotate(14deg);
-}
-
-.card-rotation-6 {
     transform: rotate(4deg);
 }
 
+.card-rotation-4 {
+    transform: rotate(6deg);
+}
+
+.card-rotation-5 {
+    transform: rotate(8deg);
+}
+
+.card-rotation-6 {
+    transform: rotate(7deg);
+}
+
 .card-rotation-7 {
-    transform: rotate(-14deg);
+    transform: rotate(-4deg);
 }
 
 .card-rotation-8 {
-    transform: rotate(-12deg);
+    transform: rotate(-2deg);
 }
 
 .card-rotation-9 {
@@ -233,10 +237,10 @@ body {
 }
 
 .card-rotation-10 {
-    transform: rotate(-15deg);
+    transform: rotate(-5deg);
 }
 
 .card-rotation-11 {
-    transform: rotate(-10deg);
+    transform: rotate(-3deg);
 }
 
