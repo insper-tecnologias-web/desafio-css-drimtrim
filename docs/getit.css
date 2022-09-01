@@ -96,7 +96,6 @@ body {
     justify-content: flex-start;
     align-items: center;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-
 }
 
 .logo {
@@ -123,17 +122,13 @@ body {
 
 .form-card > * {
     width: 100%;
-
-
 }
 
 .form-card-title {  
     font-size: 20px;
     font-weight: bold;
     color: #2c2c2c;
-    border: none;
-    
-    
+    border: none; 
 }
 
 .autoresize {
@@ -205,7 +200,7 @@ body {
 }
 
 .card-rotation-2 {
-    transform: rotate(5deg);
+    transform: rotate(3deg);
 }
 
 .card-rotation-3 {
@@ -213,11 +208,11 @@ body {
 }
 
 .card-rotation-4 {
-    transform: rotate(6deg);
+    transform: rotate(5deg);
 }
 
 .card-rotation-5 {
-    transform: rotate(8deg);
+    transform: rotate(6deg);
 }
 
 .card-rotation-6 {
@@ -233,7 +228,7 @@ body {
 }
 
 .card-rotation-9 {
-    transform: rotate(-7deg);
+    transform: rotate(-3deg);
 }
 
 .card-rotation-10 {
@@ -241,6 +236,6 @@ body {
 }
 
 .card-rotation-11 {
-    transform: rotate(-3deg);
+    transform: rotate(-6deg);
 }
 
